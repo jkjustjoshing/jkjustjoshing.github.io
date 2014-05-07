@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="The personal website of Josh Kramer, 2013 Rochester Institute of Technology Computer Engineering graduate with minors in Web Development and Electrical Engineering.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+
+    <title>Josh Kramer</title>
+
+  </head>
+  <body data-spy="scroll" data-target=".nav">
+
+    <header class="navbar navbar-fixed-top">
+        <div class="navbar-brand">Josh Kramer</div>
+        <nav class="navbar-right">
+          <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul class="nav navbar-nav navbar-collapse collapse">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+          </ul>
+       </nav>
+    </header>
+
+    <section id="home">
+      <div id="personal_statement" class="jumbotron content">
+        <p>
+          I am a front- and back-end web developer who loves to understand how an application works. I'm at home in 
+          a browser debugger, and nothing excites me more than solving a pesky bug. I also dabble in Arduino microcontrollers, 
+          Ruby, and a little of everything in between. 
+
+          I'm currently a developer at <a href="http://www.effectiveui.com" target="_blank">EffectiveUI</a> in Rochester, NY, where I've lived for 5 years.
+        </p>
+        <p>
+          Check out my work below.
+        </p>
+
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1> Projects </h1>
+
+      <ul>
+        <li class="project cribbage">
+          <a class="circle" href="#cribbage">Multiplayer Cribbage Game</a>
+        </li>
+        <li class="project frac">
+          <a class="circle" href="#frac">Senior Design Project</a>
+        </li>
+        <li class="project glowing-cranes">
+          <a class="circle" href="#glowing-cranes">Glowing Cranes</a>
+        </li>
+        <li class="project vending-machine">
+          <a class="circle" href="#vending-machine">Vending Machine</a>
+        </li>
+      </ul>
+
+      <div class="details">
+        
+        <div id="cribbage">
+          <h2>Multiplayer Cribbage <div id="play"></div><a href="cribbage">Play Now</a></h2>
+          <h3>My capstone project for RIT's Web Development minor</h3>
+          <div class="description">
+            The assignment was to create a multiplayer, turn-based game using SVG
+            to display the game and AJAX to coordinate gameplay between two players 
+            in separate browsers. I chose to build Cribbage, which is a 2-person
+            card game where the goal is to be the first to reach 121 points. The 
+            game (and chat) uses AJAX polling to get updates from the server.
+            <div class="libraries">
+              jQuery, Bootstrap
+            </div>
+          </div>
+        </div> <!-- class="cribbage" -->
+
+        <div id="frac">
+          <h2>Facial Recognition Access Control</h2>
+          <h3>Computer Engineering Senior Design Project</h3>
+          <div class="description">
+            Sr design project
+            <div class="libraries">
+              jQuery, Bootstrap
+            </div>
+          </div>
+        </div> <!-- class="frac" -->
+
+        <div id="glowing-cranes">
+          <h2>Glowing Cranes</h2>
+          <h3>Arduino-powered glowing paper crane mobile</h3>
+          <div class="description">
+            <iframe width="200" height="370" src="//www.youtube.com/embed/gWPnrFNtlXs" frameborder="0" allowfullscreen></iframe>
+            
+
+
+            <div class="libraries">
+              Arduino
+            </div>
+          </div>
+        </div> <!-- class="glowing-cranes" -->
+
+        <div id="vending-machine">
+          <h2>Vending Machine</h2>
+          <h3>Class Project, Software Engineering 1</h3>
+          <div class="description">
+            
+            <div class="libraries">
+              
+            </div>
+          </div>
+        </div> <!-- class="vending-machine" -->
+
+      </div> <!-- class="details" -->
+      
+    </section>
+
+    <section id="work">
+      <h1> Work Experience <a href="resume.pdf" class="resume"></a></h1>
+      <ul>
+        <li>
+          <div class="position">Junior HTML/CSS Developer</div>
+          <div class="company"><a href="http://www.effectiveui.com">EffectiveUI</a></div>
+          <div class="dates">Winter 2013 - Present</div>
+          <ul class="job-responsibilities">
+            <li>Develop JavaScript, HTML, and CSS solutions to improve products for clients.</li>
+            <li>Create new AngularJS directives, services, and other extensions as needed to improve and add features to client projects.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="position">Software Engineer Co-op</div>
+          <div class="company"><a href="http://www.fluxx.io">Fluxx Labs, LLC</a></div>
+          <div class="dates">Fall 2013</div>
+          <ul class="job-responsibilities">
+            <li>Added features used by dozens of clients to the product, using Ruby on Rails and JavaScript.</li>
+            <li>Wrote a script to access Amazon Web Services, which streamlined the process of importing new client documents to the product.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="position">High-Speed Processing Co-op</div>
+          <div class="company">National Security Agency</div>
+          <div class="dates">2011 - 2012</div>
+          <ul class="job-responsibilities">
+            <li>Developed and maintained Ruby scripts, which are being used as a completion requirement for mission components.</li>
+            <li>Validated data byte-by-byte against a proprietary data format to ensure mission stability.</li>
+            <li>Manually parsed XML schemas to validate proprietary data against them.</li>
+            <li>Converted data to and from this proprietary data format and XML.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="position">Key Management Co-op</div>
+          <div class="company">National Security Agency</div>
+          <div class="dates">Spring 2011</div>
+          <ul class="job-responsibilities">
+            <li>Worked on the software team to build a randomizer for key generation.</li>
+            <li>Wrote a module in C that facilitated inter-processor communication on a PCIe board.</li>
+            <li>Overhauled the program flow of a module that checks how random a set of random data is.</li>
+            <li>Completed a module to compute the Secure Hash Algorithm (SHA-2) hash of random data.</li>
+            <li>Created a system in VHDL to modify the contents of a block of memory.</li>
+          </ul>
+        </li>
+      </ul>
+      <h2> Student Positions (employment) </h2>
+      <ul>
+        <li>
+          <div class="position">Student Ambassador/Tour Guide</div>
+          <div class="company"><a href="http://admissions.rit.edu">RIT Admissions Office</a></div>
+          <div class="dates">2009 - 2013</div>
+          <ul class="job-responsibilities">
+            <li>Give weekly scripted tours of campus to prospective students.</li>
+            <li>Present the RIT brand to prospective students in a professional and friendly manner.</li>
+            <li>Provide a good first impression of RIT.</li>
+            <li>Train new tour guides and review their performance with my supervisor.</li>
+          </ul>
+        </li>
+        <li>
+          <div class="position">Student Assistant of Special Projects</div>
+          <div class="company"><a href="http://honors.rit.edu">RIT Honors Program</a></div>
+          <div class="dates">2012 - 2013</div>
+          <ul class="job-responsibilities">
+          </ul>
+        </li>
+        <li>
+          <div class="position">Lead Honors Orientation Mentor</div>
+          <div class="company"><a href="http://honors.rit.edu">RIT Honors Program</a></div>
+          <div class="dates">2012 - 2013</div>
+          <ul class="job-responsibilities">
+          </ul>
+        </li>
+        <li>
+          <div class="position">Honors Orientation Mentor</div>
+          <div class="company"><a href="http://honors.rit.edu">RIT Honors Program</a></div>
+          <div class="dates">2010 - 2011</div>
+          <ul class="job-responsibilities">
+          </ul>
+        </li>
+      </ul>
+
+      <h2> Student Positions (volunteer) </h2>
+      <ul>
+        <li>
+          <div class="position">Executive Board Member</div>
+          <div class="company"><a href="http://facebook.com/RITQuidditch">RIT Quidditch Club</a></div>
+          <div class="dates">2010 - 2013</div>
+          <ul class="job-responsibilities">
+          </ul>
+        </li>
+        <li>
+          <div class="position">Executive Board Member</div>
+          <div class="company"><a href="http://facebook.com/groups/RITRunningClub">RIT Running Club</a></div>
+          <div class="dates">2011 - 2013</div>
+          <ul class="job-responsibilities">
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h1> Hobbies </h1>
+
+      <div class="accordion">
+        <h2> Running </h2>
+        <div>
+
+        </div>
+        <h2> Quidditch </h2>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+
+      </div>
+
+
+      <div class="content">
+        <div id="running">
+          <div class="base"></div>
+          <div class="mask"></div>
+        </div>
+
+        <div id="quidditch">
+          <div class="base"></div>
+          <div class="mask"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+  
+      <div class="social-media">
+        Get in touch with me using:
+      </div>
+      <ul class="social-media">
+        <li><a href="mailto:josh@joshkra.me" class="email"></a></li>
+        <li><a href="https://www.facebook.com/jkjustjoshing" class="facebook"></a></li>
+        <li><a href="https://www.linkedin.com/in/joshdkramer" class="linkedin"></a></li>
+        <li><a href="https://www.twitter.com/jkjustjoshing" class="twitter"></a></li>
+        <li><a href="resume.pdf" class="resume"></a></li>
+      </ul>
+    </footer>
+
+    <script type="text/javascript" src="js/specific.js"></script>
+
+    <script>
+      if(window.location.href.indexOf("localhost") === -1){
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-45125985-1', 'joshkra.me');
+        ga('send', 'pageview');
+      }
+    </script>
+
+  </body>
+</html>

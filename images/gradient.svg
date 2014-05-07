@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="1200" height="960" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+
+<!-- 	<image xlink:href="marathon_blurry.jpg" width="1200" height="960" x="0" y="0" />
+  --> 
+
+    <defs>
+      <radialGradient id="MyGradient" gradientUnits="userSpaceOnUse"
+                  cx="200" cy="200" r="200">
+        <stop offset="0%" stop-color="white" />
+        <stop offset="40%" stop-color="white" />
+        <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+      </radialGradient>
+    </defs>
+
+    <mask id="mask">
+      <rect fill="url(#MyGradient)" x="0" y="0" width="400" height="400" />
+    </mask>
+    <!-- The rectangle is filled using a radial gradient paint server -->
+
+</svg>
