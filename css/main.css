@@ -27,13 +27,13 @@ nav ul.nav li a {
   nav ul.nav li a:hover {
     text-decoration: none;
     background-color: #45687d; }
-nav ul.nav li.active a[href="#home"] {
+nav ul.nav li:nth-of-type(4n+1).active a {
   color: #df5a49; }
-nav ul.nav li.active a[href="#projects"] {
+nav ul.nav li:nth-of-type(4n+2).active a {
   color: #e27a3f; }
-nav ul.nav li.active a[href="#work"] {
+nav ul.nav li:nth-of-type(4n+3).active a {
   color: #efc94c; }
-nav ul.nav li.active a[href="#hobbies"] {
+nav ul.nav li:nth-of-type(4n+4).active a {
   color: #45b29d; }
 
 @media (max-width: 767px) {
@@ -48,13 +48,13 @@ body, html {
 section {
   min-height: 100%;
   padding-top: 50px; }
-  section:nth-of-type(1) {
+  section:nth-of-type(4n+1) {
     background: #df5a49; }
-  section:nth-of-type(2) {
+  section:nth-of-type(4n+2) {
     background: #e27a3f; }
-  section:nth-of-type(3) {
+  section:nth-of-type(4n+3) {
     background: #efc94c; }
-  section:nth-of-type(4) {
+  section:nth-of-type(4n+4) {
     background: #45b29d; }
 
 h1 {

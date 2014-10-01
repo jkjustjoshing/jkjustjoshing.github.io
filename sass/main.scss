@@ -40,7 +40,7 @@ $hobbies_color: $fourth_color;
   position: relative;
 
   .mask {
-    
+
     // Hide the clear picture until after user hovers initially
     position: absolute;
     top:-400px;
@@ -51,7 +51,7 @@ $hobbies_color: $fourth_color;
     background-repeat: no-repeat;
     height: 400px;
     width: 400px;
-    
+
     -webkit-mask-image: -webkit-gradient(radial, 200 200, 0, 200 200, 200, color-stop(00%, white), color-stop(40%, white), color-stop(100%, rgba(0,0,0,0)));
     mask: url(../images/gradient.svg#mask);
 
@@ -78,7 +78,7 @@ a {
 }
 
 header.navbar, footer {
-    width: 100%; 
+    width: 100%;
     color: white;
     background: $header_color;
     margin:0;
@@ -91,10 +91,10 @@ nav {
     background: white;
   }
 
-   ul.nav {
+  ul.nav {
 
-     li {
-       a {
+    li {
+      a {
         // padding: 10px 20px;
         // display: block;
         color: white;
@@ -104,23 +104,25 @@ nav {
         }
       }
 
-      &.active a {
-        &[href="#home"] {
-          color: $home_color;
+      &:nth-of-type(4n+1) {
+        &.active a {
+          color: $first_color;
         }
-
-        &[href="#projects"] {
-          color: $projects_color;
+      }
+      &:nth-of-type(4n+2) {
+        &.active a {
+          color: $second_color;
         }
-
-        &[href="#work"] {
-          color: $work_color;
+      }
+      &:nth-of-type(4n+3) {
+        &.active a {
+          color: $third_color;
         }
-
-        &[href="#hobbies"] {
-          color: $hobbies_color;
+      }
+      &:nth-of-type(4n+4) {
+        &.active a {
+          color: $fourth_color;
         }
-
       }
 
     }
@@ -148,16 +150,16 @@ section {
   padding-top: 50px;
 
 
-  &:nth-of-type(1) {
+  &:nth-of-type(4n+1) {
     background: $first_color;
   }
-  &:nth-of-type(2) {
+  &:nth-of-type(4n+2) {
     background: $second_color;
   }
-  &:nth-of-type(3) {
+  &:nth-of-type(4n+3) {
     background: $third_color;
   }
-  &:nth-of-type(4) {
+  &:nth-of-type(4n+4) {
     background: $fourth_color;
   }
 }
@@ -196,7 +198,7 @@ section {
 
 
 @mixin circle-image($url, $size: 150px){
-  border-radius: 50%; 
+  border-radius: 50%;
   width: $size;
   height: $size;
   background: $url;
@@ -305,7 +307,7 @@ section {
 }
 
 #work {
-  
+
   font-size: 12pt;
 
   > ul {
@@ -345,7 +347,7 @@ section {
         list-style: disc;
         padding-left: 20px;
         width: 80%;
-  
+
         &:after {
           content: " ";
           clear: both;
@@ -370,7 +372,7 @@ section {
 footer {
 
   padding: 10px;
-  
+
   div {
     display: inline-block;
     text-align:center;
