@@ -2,7 +2,7 @@ name: "Josh Kramer | Blog"
 
 description: "The blog of Josh Kramer"
 
-url: "http://localhost:3000"
+url: "http://localhost:4000"
 #url: "http://joshkra.me"
 
 paginate: 10
